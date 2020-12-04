@@ -24,7 +24,7 @@ namespace NearestPointMerge.Viewer
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DrawMergeSeed(new DummyPointMerger(), new SizeF(7f, 7f), (int) numericUpDown1.Value, (int) numericUpDown2.Value);
+            DrawMergeSeed(new VsoffPointMerger(), new SizeF(7f, 7f), (int) numericUpDown1.Value, (int) numericUpDown2.Value);
             pictureBox1.Refresh();
         }
 
